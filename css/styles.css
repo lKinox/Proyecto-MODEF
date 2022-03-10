@@ -188,6 +188,7 @@ a:hover {
 
 .imgInfo1 {
     width: 100%;
+    height: 750px;
     display: flex;
     z-index: 0;
     position: absolute;
