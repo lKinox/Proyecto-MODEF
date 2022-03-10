@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF !important;
+}
+
+@font-face{
+    font-family: BorisBlackBloxx;
+    src: url(BorisBlackBloxx.ttf)
+}
+
+/** NAVBAR */
+
+.navbar {
+    background-color: transparent;
+    margin-top: 1rem;
+    margin-left: 1.2cm;
+    margin-right: 1.2cm;
+}
+
+.navbar-toggler {
+    color:#FFF !important;
+    border-color: #FFF !important;
+}
+
+a {
+    color: rgb(196, 196, 196);
+}
+
+a:hover {
+    color: rgb(136, 136, 136) !important;
+}
+
+.logoNavbar {
+    height: 35px;
+    width: auto;
+}
+
+
+.buttomNav {
+    background-color: #FFF !important;
+    margin-left: 2rem;
+    border-style: solid;
+    border-color: #FFF;
+    border-width: 1px !important;
+    border-radius: 7px !important;
+    align-items: center;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.buttomNavLet {
+    font-family: Barlow;
+    font-size: 15pt;
+    font-weight: 800;
+    letter-spacing: 0px;
+    background: linear-gradient(90deg, rgba(92, 198, 236, 1) 20%, rgba(192, 128, 247, 1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    word-wrap: break-word;
+    margin-bottom: 0px !important;
+}
+
+.buttomNav2 {
+    font-family: Barlow;
+    font-size: 15pt;
+    letter-spacing: 3px;
+    color: #000 !important;
+    background-color: rgba(255,255,255,1);
+    margin-left: 0.5cm;
+    padding-top: 0.1px !important;
+    padding-bottom: 0.1px !important;
+    border-color: #000;
+    border-width: 1px !important;
+    border-style: solid;
+    border-radius: 35px !important;
+}
+
+.container1 {
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+    border-width: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding-bottom: 1rem;
+}
+
+.container2 {
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding-bottom: 0.8cm;
+}
+
+/** HOME */
+
+
+.img1 {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    z-index: 0;
+    position: absolute;
+}
+
+.containerHome {
+    height: 750px;
+}
+
+.home1 {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    max-width: 1000px !important;
+    margin-right: 0px !important;
+    margin-left: -50px !important;
+
+}
+
+.text1 {
+    z-index: 1;
+    position: relative;
+    width: 60%;
+    margin-top: 256px !important;
+}
+
+.text2 {
+    z-index: 1;
+    position: relative;
+    width: 77%;
+    margin-top: -7px;
+}
+
+.text3 {
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 16.5pt;
+    line-height: 28px;
+    color: #434244;
+    z-index: 1;
+    position: relative;
+    margin-left: 4px;
+    margin-top: 18px !important;
+}
+
+.buttomHome {
+    font-family: BorisBlackBloxx;
+    font-size: 19pt;
+    letter-spacing: 1px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem !important;
+    background: #ec6b76;
+    border-radius: 35px;
+    margin-top: 30px !important;
+    margin-left: 12px !important;
+}
+
+/** INFO1 */
+
+
+.info1 {
+    background: #FFF;
+    height: 750px;
+}
+
+.info2 {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    max-width: 1000px !important;
+    margin-right: 0px !important;
+    margin-left: -50px !important;
+}
+
+.imgInfo1 {
+    width: 100%;
+    display: flex;
+    z-index: 0;
+    position: absolute;
+}
+
+.textInfo1 {
+    font-family: BorisBlackBloxx;
+    font-size: 46pt;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    line-height: 65px;
+    background: linear-gradient(90deg, rgba(53, 225, 232, 1) 10%, rgba(221, 107, 250, 1) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    word-wrap: break-word;
+    margin-top: 210px !important;
+    z-index: 1;
+}
+
+.textInfo2 {
+    font-family: Barlow, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 27pt;
+    letter-spacing: -1px;
+    color:#FFF;
+    z-index: 1;
+    margin-left: 3px;
+}
+
+.textInfoborder {   
+    -webkit-text-stroke: 2px #4b4b4b;
+    color: transparent;   
+}
+
+.textInfo3 {
+    font-family: myriad-pro, sans-serif;
+    font-weight: 700;
+    font-size: 17pt;
+    font-style: normal;
+    color: #434244;
+    margin-top: 15px !important;
+    margin-left: 2px;
+    z-index: 1;
+}
+
+.buttomInfo1 {
+    font-family: BorisBlackBloxx;
+    font-size: 19pt;
+    letter-spacing: 1px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem !important;
+    background: #b456cc;
+    border-radius: 35px;
+    margin-top: 60px !important;
+    margin-left: 0px !important;
+    z-index: 1;
+}
+
+
+/** INFO2 */
+
+.info2-1{
+    background: #FFF;
+    height: 750px;
+}
+.textInfo2-1 {
+    font-family: BorisBlackBloxx;
+    font-size: 44.55pt;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    line-height: 65px;
+    background: linear-gradient(90deg, rgba(53, 225, 232, 1) 10%, rgba(221, 107, 250, 1) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    word-wrap: break-word;
+    margin-top: 205px !important;
+    z-index: 1;
+}
+
+.textInfo2-2 {
+    font-family: Barlow;
+    font-weight: 800;
+    font-size: 21.5pt;
+    color: #434244;
+    line-height: 35px;
+    margin-left: 8px;
+    margin-top: 15px !important;
+}
+
+.textInfo2-3 {
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 17.2pt;
+    color: #434244;
+    line-height: 28px;
+    margin-left: 8px;
+}
+
+.imgInfo2 {
+    margin-left: -10px;
+    margin-top: 40px !important;
+    width: 90%;
+}
+
+/** INFO3 */
+
+.info3 {
+    background: #FFF;
+    height: 750px;
+}
+
+.imgInfo3 {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    z-index: 0;
+    position: absolute;
+}
+
+.textInfo3-2 {
+    font-family: BorisBlackBloxx, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 45pt;
+    letter-spacing: -2.8px;
+    color: transparent;
+    z-index: 1;
+    margin-left: 3px;
+    position: relative;
+    text-align: center;
+}
+
+.textInfoborder2 {   
+    -webkit-text-stroke: 2px #ffffff;
+    color: transparent;
+}
+
+.imgLogo2 {
+    z-index: 1;
+    position: relative;
+    width: 72%;
+    margin-top: -40px !important;
+}
+
+.imgLogo2-align {
+    text-align: center;
+}
+
+.rowInfo3 {
+    height: 375px;
+    align-items:flex-end;
+}
+
+.rowInfo3-1 {
+    align-items:baseline;
+}
+
+/** CONTACTO */
+
+.imgContacto {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    z-index: 0;
+    position: absolute;
+    margin-top: 0px;
+}
+
+.textContacto1 {
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 50pt;
+    color:#FFF;
+    z-index: 1;
+    text-align: center;
+    margin-top: 150px !important;
+}
+
+@media screen and (max-width: 1000px) {
+
+    /** NAVBAR */
+
+    .buttomNav {
+        font-family: Barlow;
+        font-size: 15pt;
+        letter-spacing: 3px;
+        color: #FFF !important;
+        background-color: transparent;
+        margin-left: 0.5cm;
+        padding-top: 0.1px !important;
+        padding-bottom: 0.1px !important;
+        border: none !important;
+    }
+    
+    .buttomNav2 {
+        font-family: Barlow;
+        font-size: 15pt;
+        letter-spacing: 3px;
+        color: #000 !important;
+        background-color: transparent;
+        margin-left: 0.5cm;
+        padding-top: 0.1px !important;
+        padding-bottom: 0.1px !important;
+        
+    }
+
+    /** HOME */
+    
+    .home1 {
+        z-index: 1;
+        position: relative;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-top: -30px;
+        align-items: center;
+        display: flex;
+        height: 750px;
+        
+    }
+    
+    
+    .text1 {
+        font-family: Barlow;
+        font-style: Medium !important;
+        font-size: 40pt;
+        color: #FFF;
+        display: flex;
+        margin-top: 80px !important;
+        line-height: 70px;
+    }
+    
+    .text2 {
+        font-family: Barlow;
+        font-size: 41.5pt;
+        letter-spacing: 0.5px;
+        font-weight: 700;
+        color: #9308b6;
+        display: flex;
+        line-height: 68px; 
+        margin-left: 1.18rem;
+    }
+    
+    .buttomHome {
+        font-family: Barlow;
+        font-size: 20pt;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: #FFF;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background: linear-gradient(90deg, rgba(255,0,210,0.3) 0%, rgba(214, 224, 8, 0.3) 100%);
+        border-radius: 35px;
+        margin-left: 0.71rem;
+        margin-top: 100px !important;
+        box-shadow: 0px 0px  100px black;
+    }
+}
