@@ -125,7 +125,6 @@ a:hover {
     max-width: 1000px !important;
     margin-right: 0px !important;
     margin-left: -50px !important;
-
 }
 
 .text1 {
@@ -166,6 +165,7 @@ a:hover {
     border-radius: 35px;
     margin-top: 30px !important;
     margin-left: 12px !important;
+    width: 350px !important;
 }
 
 /** INFO1 */
@@ -238,6 +238,7 @@ a:hover {
     font-family: BorisBlackBloxx;
     font-size: 19pt;
     letter-spacing: 1px;
+    width: 450px!important;
     color: #FFF;
     text-align: center;
     padding-top: 0.8rem;
@@ -369,8 +370,8 @@ a:hover {
     height: 170px;
     border-radius:150px !important;
     box-shadow: -4px 0px 20px rgb(179, 179, 179);
-    margin-top: 150px !important;
-    margin-left: 50px;
+    margin-top: 160px !important;
+    margin-left: 20px;
     position: relative;
     z-index: 1;
 }
@@ -381,7 +382,7 @@ a:hover {
     border-radius:150px !important;
     box-shadow: -4px 0px 20px rgb(179, 179, 179);
     margin-top: 5px !important;
-    margin-left: 50px;
+    margin-left: 20px;
     position: relative;
     z-index: 1;
 }
@@ -426,10 +427,12 @@ a:hover {
     border-radius: 35px;
     position: relative;
     margin-top: 60px !important;
+    width: 350px;
 }
 
-.space4 {
-    position: relative;
+.EspInfo4 {
+    display: flex;
+    justify-content: end;
 }
 
 /** INFO5 */
@@ -437,6 +440,13 @@ a:hover {
 .info5 {
     height: 750px;
     background: #FFF;
+}
+
+.container3 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 100px !important;
+    max-width: 1300px !important;
 }
 
 .imgInfo5-1 {
@@ -459,7 +469,7 @@ a:hover {
     -webkit-text-fill-color: transparent;
     word-wrap: break-word;
     margin-top: 120px !important;
-    margin-left: -40px;
+    margin-left: 20px;
     z-index: 1;
 }
 
@@ -470,7 +480,7 @@ a:hover {
     box-shadow: -4px 0px 20px rgb(179, 179, 179);
     margin-top: 30px !important;
     margin-bottom: 15px;
-    margin-left: -20px;
+    margin-left: -10px;
     position: relative;
     z-index: 1;
 }
@@ -487,7 +497,7 @@ a:hover {
 
 .barInfo5 {
     height: 3px;
-    width: 60px;
+    width: auto;
     background: linear-gradient(90deg, rgba(53, 225, 232) 0%, rgba(221, 107, 250) 100%);
     position: relative;
 }
@@ -502,6 +512,7 @@ a:hover {
 
 }
 
+
 /** INFOFINAL */
 
 .infoFinal {
@@ -511,7 +522,7 @@ a:hover {
 
 .imgInfoFinal1 {
     position: relative;
-    width: 590px !important;
+    width: 55% !important;
     margin-top: 180px !important;
 }
 
@@ -577,83 +588,914 @@ a:hover {
     margin-bottom: 15px !important;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 990px) {
 
     /** NAVBAR */
 
     .buttomNav {
-        font-family: Barlow;
-        font-size: 15pt;
-        letter-spacing: 3px;
-        color: #FFF !important;
-        background-color: transparent;
-        margin-left: 0.5cm;
-        padding-top: 0.1px !important;
-        padding-bottom: 0.1px !important;
-        border: none !important;
+        display: flex;
+        width: 200px !important;
+        background-color: #FFF !important;
+        margin-left: 2rem;
+        border-style: solid;
+        border-color: #FFF;
+        border-width: 0px !important;
+        border-radius: 7px !important;
+        align-items: center;
+        padding-top: 3px !important;
+        padding-bottom: 3px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 2px !important;
     }
     
     .buttomNav2 {
-        font-family: Barlow;
-        font-size: 15pt;
-        letter-spacing: 3px;
-        color: #000 !important;
-        background-color: transparent;
-        margin-left: 0.5cm;
-        padding-top: 0.1px !important;
-        padding-bottom: 0.1px !important;
-        
+        border: double 3px transparent !important;
+        border-radius: 7px !important;
+        background-image: linear-gradient(white, white), radial-gradient(circle at top left, #35e1e8, #dd6bfa);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        margin-left: 2rem;
+        align-items: center;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
     }
-
+    
     /** HOME */
     
     .home1 {
         z-index: 1;
         position: relative;
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-        margin-top: -30px;
-        align-items: center;
         display: flex;
-        height: 750px;
-        
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    
     }
     
-    
     .text1 {
-        font-family: Barlow;
-        font-style: Medium !important;
-        font-size: 40pt;
-        color: #FFF;
-        display: flex;
-        margin-top: 80px !important;
-        line-height: 70px;
+        z-index: 1;
+        position: relative;
+        width: 75%;
+        margin-top: 256px !important;
     }
     
     .text2 {
+        z-index: 1;
+        position: relative;
+        width: 100%;
+        margin-top: -7px;
+    }
+    
+    .text3 {
         font-family: Barlow;
-        font-size: 41.5pt;
-        letter-spacing: 0.5px;
         font-weight: 700;
-        color: #9308b6;
-        display: flex;
-        line-height: 68px; 
-        margin-left: 1.18rem;
+        font-size: 15pt;
+        line-height: 28px;
+        color: #434244;
+        z-index: 1;
+        position: relative;
+        margin-left: 4px;
+        margin-top: 18px !important;
+        text-align: center;
     }
     
     .buttomHome {
-        font-family: Barlow;
-        font-size: 20pt;
-        font-weight: 800;
+        font-family: BorisBlackBloxx;
+        font-size: 19pt;
         letter-spacing: 1px;
         color: #FFF;
         text-align: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        background: linear-gradient(90deg, rgba(255,0,210,0.3) 0%, rgba(214, 224, 8, 0.3) 100%);
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem !important;
+        background: #ec6b76;
         border-radius: 35px;
-        margin-left: 0.71rem;
+        margin-top: 30px !important;
+        margin-left: 12px !important;
+    }
+
+    .EspMain1 {
+        justify-content: center;
+        display: flex;
+    }
+
+    /** INFO1 */
+    
+    .info2 {
+        z-index: 1;
+        position: relative;
+        display: flex;
+        max-width: 1000px !important;
+        margin-right: 0px !important;
+        margin-left: -20px !important;
+    }
+    
+    .textInfo1 {
+        font-family: BorisBlackBloxx;
+        font-size: 35pt;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        line-height: 65px;
+        background: linear-gradient(90deg, rgba(53, 225, 232, 1) 10%, rgba(221, 107, 250, 1) 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        word-wrap: break-word;
+        margin-top: 130px !important;
+        z-index: 1;
+    }
+    
+    .textInfo2 {
+        font-family: Barlow, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 23pt;
+        letter-spacing: -1px;
+        color:#FFF;
+        z-index: 1;
+        margin-left: 3px;
+    }
+    
+    .textInfoborder {   
+        -webkit-text-stroke: 2px #4b4b4b;
+        color: transparent;   
+    }
+    
+    .textInfo3 {
+        font-family: myriad-pro, sans-serif;
+        font-weight: 700;
+        font-size: 15pt;
+        font-style: normal;
+        color: #434244;
+        margin-top: 15px !important;
+        margin-left: 2px;
+        z-index: 1;
+    }
+    
+    .buttomInfo1 {
+        font-family: BorisBlackBloxx;
+        font-size: 14pt;
+        letter-spacing: 1px;
+        width: 350px!important;
+        color: #FFF;
+        text-align: center;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem !important;
+        background: #b456cc;
+        border-radius: 35px;
+        margin-top: 60px !important;
+        margin-left: 10px !important;
+        z-index: 1;
+    }
+
+    /** INFO2 */
+
+    .textInfo2-1 {
+        font-family: BorisBlackBloxx;
+        font-size: 35pt;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        line-height: 65px;
+        background: linear-gradient(90deg, rgba(53, 225, 232, 1) 10%, rgba(221, 107, 250, 1) 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        word-wrap: break-word;
         margin-top: 100px !important;
-        box-shadow: 0px 0px  100px black;
+        z-index: 1;
+    }
+
+    .textInfo2-2 {
+        font-family: Barlow;
+        font-weight: 800;
+        font-size: 18pt;
+        color: #434244;
+        line-height: 35px;
+        margin-left: 4px;
+        margin-top: 15px !important;
+    }
+
+    .textInfo2-3 {
+        font-family: Barlow;
+        font-weight: 600;
+        font-size: 15pt;
+        color: #434244;
+        line-height: 28px;
+        margin-left: 4px;
+    }
+
+    .imgInfo2 {
+        margin-left: -10px;
+        margin-top: 40px !important;
+        width: 90%;
+    }
+
+    /** INFO3 */
+    
+    .textInfo3-2 {
+        font-family: BorisBlackBloxx, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 28pt;
+        letter-spacing: -2.4px;
+        color: transparent;
+        z-index: 1;
+        margin-left: 3px;
+        position: relative;
+        text-align: center;
+    }
+    
+    .imgLogo2 {
+        z-index: 1;
+        position: relative;
+        width: 72%;
+        margin-top: -40px !important;
+    }
+    
+    /** INFO4 */
+
+    .imgInfo4-2 {
+        width: auto;
+        height: 110px;
+        border-radius:150px !important;
+        box-shadow: -4px 0px 20px rgb(179, 179, 179);
+        margin-top: 150px !important;
+        margin-left: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .imgInfo4-3 {
+        width: auto;
+        height: 110px;
+        border-radius:150px !important;
+        box-shadow: -4px 0px 20px rgb(179, 179, 179);
+        margin-top: 30px !important;
+        margin-left: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .textInfo4-1 {
+        font-family: Barlow;
+        font-size: 12pt;
+        font-weight: 500;
+        line-height: 28px;
+        position: relative;
+        border-width: 4px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-style: solid;
+        border-color: #60c4ed;
+        margin-top: 130px !important;
+        padding-left: 0px !important;
+        padding-bottom: 20px;
+    }
+
+    .textInfo4-2 {
+        font-family: Barlow;
+        font-size: 12pt;
+        font-weight: 500;
+        line-height: 28px;
+        position: relative;
+        margin-top: 20px !important;
+        padding-left: 0px !important;
+    }
+
+    .buttomInfo4 {
+        font-family: BorisBlackBloxx;
+        font-size: 10pt;
+        letter-spacing: 1px;
+        text-shadow: -1px 2px 3px rgb(112, 112, 112) !important;
+        color: #FFF;
+        text-align: center;
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+        background: #60c4ed;
+        border-radius: 35px;
+        position: relative;
+        margin-top: 40px !important;
+        width: 320px;
+    }
+
+    .EspInfo4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .EspInfo4-1 {
+        max-width: 800px !important;
+    }
+
+    /** INFO5 */
+
+    .textInfo5-1 {
+        font-family: BorisBlackBloxx;
+        font-size: 30pt;
+        font-weight: 800;
+        letter-spacing: 1px;
+        line-height: 30px;
+        background: linear-gradient(90deg, rgba(53, 225, 232, 1) 10%, rgba(221, 107, 250, 1) 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        word-wrap: break-word;
+        margin-top: 40px !important;
+        margin-left: 10px;
+        z-index: 1;
+    }
+
+    .imgInfo5-2 {
+        width: auto;
+        height: 90px;
+        border-radius:150px !important;
+        box-shadow: -4px 0px 20px rgb(179, 179, 179);
+        margin-top: 30px !important;
+        margin-bottom: 15px;
+        margin-left: -10px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .textInfo5-2 {
+        font-family: Barlow;
+        font-size: 14.1pt;
+        font-weight: 700;
+        position: relative;
+        margin-left: 5px;
+        margin-top: 40px !important;
+        text-align: left;
+    }
+
+    .barInfo5 {
+        height: 3px;
+        width: auto;
+        background: linear-gradient(90deg, rgba(53, 225, 232) 0%, rgba(221, 107, 250) 100%);
+        position: relative;
+    }
+
+    .textInfo5-3 {
+        font-family: Barlow;
+        font-size: 10pt;
+        font-weight: 600;
+        position: relative;
+        margin-left: 5px;
+        margin-top: 5px !important;
+
+    }
+
+    /** INFOFINAL */
+
+    .imgInfoFinal1 {
+        position: relative;
+        width: 65% !important;
+        margin-top: 120px !important;
+    }
+
+    .buttomInfo5-1 {
+        color: #FFF;
+        text-align: center;
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+        background: rgba(0, 238, 255, 0.3);
+        border-radius: 60px;
+        position: relative;
+        margin-top: 25px !important;
+        width: 830px !important;
+        box-shadow: -2px 0px 29px rgba(0, 0, 0,0.1);
+    }
+
+    .textInfoFinal1 {
+        font-family: Barlow, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 70pt;
+        letter-spacing: -2.8px;
+        color: transparent;
+        z-index: 1;
+        position: relative;
+        text-align: center;
+        text-shadow: -2px 0px 29px rgba(0, 0, 0,0.15);
+    }
+
+    .buttomInfo6 {
+        font-family: BorisBlackBloxx;
+        font-size: 19pt;
+        letter-spacing: 1px;
+        color: #FFF;
+        text-align: center;
+        padding-top: 0.8rem !important;
+        padding-bottom: 0.8rem !important;
+        background: #2babdf;
+        border-radius: 50px;
+        position: relative;
+        margin-top: 40px !important;
+        width: 330px !important;
+    }
+
+    .textInfoborder3 {   
+        -webkit-text-stroke: 4px #ffffff;
+        color: transparent;
+        align-items: center;
+        display: flex;
+    }
+
+    .textInfoFinal2 {
+        font-family: Barlow;
+        font-size: 16pt;
+        font-weight: 700;
+        line-height: 38px;
+        color: #393939;
+        text-align: left !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /** INFO5 */
+
+    .textInfo5-1 {
+        font-family: BorisBlackBloxx;
+        font-size: 28pt;
+        font-weight: 800;
+        letter-spacing: 1px;
+        line-height: 30px;
+        background: linear-gradient(90deg, rgba(53, 225, 232, 1) 10%, rgba(221, 107, 250, 1) 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        word-wrap: break-word;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        margin-left: 10px;
+        z-index: 1;
+    }
+
+    .imgInfo5-2 {
+        width: auto;
+        height: 60px;
+        border-radius:150px !important;
+        box-shadow: -4px 0px 20px rgb(179, 179, 179);
+        margin-top: 0px !important;
+        margin-bottom: 5px;
+        margin-left: -10px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .textInfo5-2 {
+        font-family: Barlow;
+        font-size: 12pt;
+        font-weight: 700;
+        line-height: 15px;
+        position: relative;
+        margin-left: 5px;
+        margin-bottom: 2px !important;
+        margin-top: 0px !important;
+        text-align: left;
+    }
+
+    .barInfo5 {
+        height: 3px;
+        width: auto;
+        background: linear-gradient(90deg, rgba(53, 225, 232) 0%, rgba(221, 107, 250) 100%);
+        position: relative;
+    }
+
+    .textInfo5-3 {
+        font-family: Barlow;
+        font-size: 10pt;
+        font-weight: 600;
+        line-height: 15px;
+        position: relative;
+        margin-left: 5px;
+        margin-top: 5px !important;
+        margin-bottom: 8px !important;
+    }
+
+    /** INFOFINAL */
+
+    .imgInfoFinal1 {
+        position: relative;
+        width: 65% !important;
+        margin-top: 180px !important;
+    }
+
+    .buttomInfo5-1 {
+        color: #FFF;
+        text-align: center;
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+        background: rgba(0, 238, 255, 0.3);
+        border-radius: 60px;
+        position: relative;
+        margin-top: 25px !important;
+        width: 630px !important;
+        box-shadow: -2px 0px 29px rgba(0, 0, 0,0.1);
+    }
+
+    .textInfoFinal1 {
+        font-family: Barlow, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 50pt;
+        letter-spacing: -2.8px;
+        color: transparent;
+        z-index: 1;
+        position: relative;
+        text-align: center;
+        text-shadow: -2px 0px 29px rgba(0, 0, 0,0.15);
+    }
+
+    .buttomInfo6 {
+        font-family: BorisBlackBloxx;
+        font-size: 19pt;
+        letter-spacing: 1px;
+        color: #FFF;
+        text-align: center;
+        padding-top: 0.8rem !important;
+        padding-bottom: 0.8rem !important;
+        background: #2babdf;
+        border-radius: 50px;
+        position: relative;
+        margin-top: 40px !important;
+        width: 330px !important;
+    }
+
+    .textInfoborder3 {   
+        -webkit-text-stroke: 4px #ffffff;
+        color: transparent;
+        align-items: center;
+        display: flex;
+    }
+
+    .textInfoFinal2 {
+        font-family: Barlow;
+        font-size: 14pt;
+        font-weight: 700;
+        line-height: 30px;
+        color: #393939;
+        text-align: left !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /** INFO4 */
+
+    .imgInfo4-2 {
+        width: auto;
+        height: 0px;
+        border-radius:150px !important;
+        box-shadow: -4px 0px 20px rgb(179, 179, 179);
+        margin-top: 0px !important;
+        margin-left: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .imgInfo4-3 {
+        width: auto;
+        height: 0px;
+        border-radius:150px !important;
+        box-shadow: -4px 0px 20px rgb(179, 179, 179);
+        margin-top: 30px !important;
+        margin-left: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    /** NAVBAR */
+
+    .logoNavbar {
+        height: 30px;
+        width: auto;
+    }
+
+    /** HOME */
+
+    /** INFO1 */
+    
+    .info2 {
+        z-index: 1;
+        position: relative;
+        display: flex;
+        max-width: 1000px !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    
+    .textInfo1 {
+        font-family: BorisBlackBloxx;
+        font-size: 26pt;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        line-height: 45px;
+        background: linear-gradient(90deg, rgba(53, 225, 232, 1) 10%, rgba(221, 107, 250, 1) 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        word-wrap: break-word;
+        margin-top: 100px !important;
+        z-index: 1;
+    }
+    
+    .textInfo2 {
+        font-family: Barlow, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 18pt;
+        letter-spacing: -1px;
+        color:#FFF;
+        z-index: 1;
+        margin-left: 3px;
+        margin-top: 15px !important;
+    }
+    
+    .textInfoborder {   
+        -webkit-text-stroke: 2px #4b4b4b;
+        color: transparent;   
+    }
+    
+    .textInfo3 {
+        font-family: myriad-pro, sans-serif;
+        font-weight: 700;
+        font-size: 13pt;
+        font-style: normal;
+        color: #434244;
+        margin-top: 15px !important;
+        margin-left: 2px;
+        z-index: 1;
+    }
+    
+    .buttomInfo1 {
+        font-family: BorisBlackBloxx;
+        font-size: 12pt;
+        letter-spacing: 1px;
+        width: 300px!important;
+        color: #FFF;
+        text-align: center;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem !important;
+        background: #b456cc;
+        border-radius: 35px;
+        margin-top: 60px !important;
+        margin-left: 0px !important;
+        z-index: 1;
+    }
+
+    .EspInfo1 {
+        justify-content: center;
+        display: flex;
+    }
+
+    /** INFO2 */
+
+    .textInfo2-1 {
+        font-family: BorisBlackBloxx;
+        font-size: 26pt;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        line-height: 40px;
+        background: linear-gradient(90deg, rgba(53, 225, 232, 1) 10%, rgba(221, 107, 250, 1) 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        word-wrap: break-word;
+        margin-top: 50px !important;
+        z-index: 1;
+    }
+
+    .textInfo2-2 {
+        font-family: Barlow;
+        font-weight: 800;
+        font-size: 16pt;
+        color: #434244;
+        line-height: 35px;
+        margin-left: 4px;
+        margin-top: 15px !important;
+    }
+
+    .textInfo2-3 {
+        font-family: Barlow;
+        font-weight: 600;
+        font-size: 14pt;
+        color: #434244;
+        line-height: 28px;
+        margin-left: 4px;
+    }
+
+    .imgInfo2 {
+        margin-left: 0px;
+        margin-top: 30px !important;
+        width: 90%;
+    }
+
+    /** INFO3 */
+    
+    .textInfo3-2 {
+        font-family: BorisBlackBloxx, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 20pt;
+        letter-spacing: -2.4px;
+        color: transparent;
+        z-index: 1;
+        margin-left: 3px;
+        position: relative;
+        text-align: center;
+    }
+    
+    .imgLogo2 {
+        z-index: 1;
+        position: relative;
+        width: 72%;
+        margin-top: -40px !important;
+    }
+
+    /** INFO4 */
+
+    .textInfo4-1 {
+        font-family: Barlow;
+        font-size: 14pt;
+        font-weight: 500;
+        line-height: 20px;
+        position: relative;
+        border-width: 4px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-style: solid;
+        border-color: #60c4ed;
+        margin-top: 60px !important;
+        margin-left: 0px;
+        padding-left: 0px !important;
+        padding-bottom: 20px;
+    }
+
+    .textInfo4-2 {
+        font-family: Barlow;
+        font-size: 14pt;
+        font-weight: 500;
+        line-height: 20px;
+        position: relative;
+        margin-top: 20px !important;
+        margin-left: 0px;
+        padding-left: 0px !important;
+    }
+
+    .buttomInfo4 {
+        font-family: BorisBlackBloxx;
+        font-size: 10pt;
+        letter-spacing: 1px;
+        text-shadow: -1px 2px 3px rgb(112, 112, 112) !important;
+        color: #FFF;
+        text-align: center;
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+        background: #60c4ed;
+        border-radius: 35px;
+        position: relative;
+        margin-top: 40px !important;
+        width: 320px;
+    }
+
+    .EspInfo4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .EspInfo4-1 {
+        max-width: 350px !important;
+    }
+
+    /** INFO5 */
+
+    .textInfo5-1 {
+        font-family: BorisBlackBloxx;
+        font-size: 24pt;
+        font-weight: 800;
+        letter-spacing: 1px;
+        line-height: 30px;
+        background: linear-gradient(90deg, rgba(53, 225, 232, 1) 10%, rgba(221, 107, 250, 1) 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        word-wrap: break-word;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        margin-left: 10px;
+        z-index: 1;
+    }
+
+    .imgInfo5-2 {
+        width: auto;
+        height: 60px;
+        border-radius:150px !important;
+        box-shadow: -4px 0px 20px rgb(179, 179, 179);
+        margin-top: 0px !important;
+        margin-bottom: 5px;
+        margin-left: -10px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .textInfo5-2 {
+        font-family: Barlow;
+        font-size: 12pt;
+        font-weight: 700;
+        line-height: 15px;
+        position: relative;
+        margin-left: 5px;
+        margin-bottom: 2px !important;
+        margin-top: 0px !important;
+        text-align: left;
+    }
+
+    .barInfo5 {
+        height: 3px;
+        width: auto;
+        background: linear-gradient(90deg, rgba(53, 225, 232) 0%, rgba(221, 107, 250) 100%);
+        position: relative;
+    }
+
+    .textInfo5-3 {
+        font-family: Barlow;
+        font-size: 10pt;
+        font-weight: 600;
+        line-height: 15px;
+        position: relative;
+        margin-left: 5px;
+        margin-top: 5px !important;
+        margin-bottom: 8px !important;
+    }
+
+    /** INFOFINAL */
+
+    .imgInfoFinal1 {
+        position: relative;
+        width: 65% !important;
+        margin-top: 180px !important;
+    }
+
+    .buttomInfo5-1 {
+        color: #FFF;
+        text-align: center;
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+        background: rgba(0, 238, 255, 0.3);
+        border-radius: 60px;
+        position: relative;
+        margin-top: 25px !important;
+        width: 630px !important;
+        box-shadow: -2px 0px 29px rgba(0, 0, 0,0.1);
+    }
+
+    .textInfoFinal1 {
+        font-family: Barlow, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 37pt;
+        letter-spacing: -2.8px;
+        color: transparent;
+        z-index: 1;
+        position: relative;
+        text-align: center;
+        text-shadow: -2px 0px 29px rgba(0, 0, 0,0.15);
+    }
+
+    .buttomInfo6 {
+        font-family: BorisBlackBloxx;
+        font-size: 18pt;
+        letter-spacing: 1px;
+        color: #FFF;
+        text-align: center;
+        padding-top: 0.8rem !important;
+        padding-bottom: 0.8rem !important;
+        background: #2babdf;
+        border-radius: 50px;
+        position: relative;
+        margin-top: 40px !important;
+        width: 330px !important;
+        box-shadow: 0px 0px 29px rgba(0, 0, 0,0.5);
+    }
+
+    .textInfoborder3 {   
+        -webkit-text-stroke: 3px #ffffff;
+        color: transparent;
+        align-items: center;
+        display: flex;
+    }
+
+    .textInfoFinal2 {
+        font-family: Barlow;
+        font-size: 12pt;
+        font-weight: 700;
+        line-height: 25px;
+        color: #393939;
+        text-align: left !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
     }
 }
