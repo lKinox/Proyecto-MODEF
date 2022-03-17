@@ -128,17 +128,14 @@ a:hover {
 }
 
 .text1 {
+    font-family: BorisBlackBloxx;
+    font-size: 45pt;
+    line-height: 65px;
+    color: #FFF;
     z-index: 1;
     position: relative;
-    width: 60%;
     margin-top: 256px !important;
-}
-
-.text2 {
-    z-index: 1;
-    position: relative;
-    width: 77%;
-    margin-top: -7px;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0,0.5);
 }
 
 .text3 {
@@ -633,17 +630,14 @@ a:hover {
     }
     
     .text1 {
+        font-family: BorisBlackBloxx;
+        font-size: 30pt;
+        line-height: 60px;
+        color: #FFF;
         z-index: 1;
         position: relative;
-        width: 75%;
         margin-top: 256px !important;
-    }
-    
-    .text2 {
-        z-index: 1;
-        position: relative;
-        width: 100%;
-        margin-top: -7px;
+        text-shadow: 0px 0px 20px rgba(0, 0, 0,0.5);
     }
     
     .text3 {
@@ -1176,7 +1170,59 @@ a:hover {
         width: auto;
     }
 
+    .buttomNav {
+        background-color: #FFF !important;
+        margin-left: 0rem;
+        border-style: solid;
+        border-color: #FFF;
+        border-width: 3px !important;
+        border-radius: 7px !important;
+        align-items: center;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        width: 100px!important;
+    }
+    
+    .buttomNavLet {
+        font-family: Barlow;
+        font-size: 12pt;
+        font-weight: 800;
+        letter-spacing: 0px;
+        background: linear-gradient(90deg, rgba(92, 198, 236, 1) 20%, rgba(192, 128, 247, 1) 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    
+    .buttomNav2 {
+        border: double 3px transparent !important;
+        border-radius: 7px !important;
+        background-image: linear-gradient(white, white), radial-gradient(circle at top left, #35e1e8, #dd6bfa);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        margin-left: 0rem;
+        align-items: center;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    
+
     /** HOME */
+
+    .text1 {
+        font-family: BorisBlackBloxx;
+        font-size: 19.5pt;
+        line-height: 40px;
+        color: #FFF;
+        z-index: 1;
+        position: relative;
+        margin-top: 200px !important;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0,0.6);
+    }
 
     /** INFO1 */
     
