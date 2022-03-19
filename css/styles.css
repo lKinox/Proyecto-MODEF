@@ -550,7 +550,7 @@ a:hover {
     font-family: Barlow, sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 80pt;
+    font-size: 70pt;
     letter-spacing: -2.8px;
     color: transparent;
     z-index: 1;
@@ -945,7 +945,7 @@ a:hover {
     .imgInfoFinal1 {
         position: relative;
         width: 65% !important;
-        margin-top: 120px !important;
+        margin-top: 200px !important;
     }
 
     .buttomInfo5-1 {
@@ -965,7 +965,7 @@ a:hover {
         font-family: Barlow, sans-serif;
         font-weight: 900;
         font-style: normal;
-        font-size: 70pt;
+        font-size: 50pt;
         letter-spacing: -2.8px;
         color: transparent;
         z-index: 1;
@@ -1000,7 +1000,7 @@ a:hover {
         font-family: Barlow;
         font-size: 16pt;
         font-weight: 700;
-        line-height: 38px;
+        line-height: 30px;
         color: #393939;
         text-align: left !important;
         margin-top: 15px !important;
@@ -1095,7 +1095,7 @@ a:hover {
         font-family: Barlow, sans-serif;
         font-weight: 900;
         font-style: normal;
-        font-size: 50pt;
+        font-size: 37pt;
         letter-spacing: -2.8px;
         color: transparent;
         z-index: 1;
@@ -1120,7 +1120,7 @@ a:hover {
     }
 
     .textInfoborder3 {   
-        -webkit-text-stroke: 4px #ffffff;
+        -webkit-text-stroke: 3px #ffffff;
         color: transparent;
         align-items: center;
         display: flex;
