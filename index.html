@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/nbi3wpw.css">
+    <script src="picturefill.js"></script>
+    <script>
+      document.createElement( "picture" );
+    </script>
 </head>
 <body>
 
@@ -27,7 +31,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav me-ce mb-2 mb-lg-0">
             <li class="nav-item">
-              <a id="menu1"class="nav-link active buttomNav btn" aria-current="page" href="#">
+              <a id="menu1" class="nav-link active buttomNav btn" aria-current="page" href="#">
                 <p class="buttomNavLet">NOSOTROS</p>
               </a>
             </li>
@@ -50,11 +54,15 @@
 
     <main>
       <div>
-        <img src="img\main1.png" alt="" class="img1">
+        <picture>
+          <source media="(min-width: 990px)" srcset="img\main1.png">
+          <source media="(min-width: 500px)" srcset="img\main1-1.png">
+          <img srcset="img\main1-2.png" alt="" class="img1">
+        </picture>
         <div class="container containerHome">
           <div class="row home1">
             <div class="col-12 text1">Impulsa tu marca<br>
-                                y llega a más personas</div>
+                                      y llega a más personas</div>
             <div class="col-12 text3">Somos un equipo especializado en creatividad, siempre con el foco puesto en<br> 
                                       incrementar el valor de tu marca a través de la comunicación publicitaria.</div>
             <div class="col-12 EspMain1"><p class="buttomHome">ESCRÍBENOS</p></div>
@@ -67,7 +75,11 @@
 
     <div>
       <div class="info1">
-        <img src="img\info1.png" alt="" class="imgInfo1">
+        <picture>
+          <source media="(min-width: 990px)" srcset="img\info1.png">
+          <source media="(min-width: 500px)" srcset="img\info1-1.png">
+          <img srcset="img\info1-2.png" alt="" class="imgInfo1">
+        </picture>
         <div class="container">
           <div class="row info2">
             <div class="col-12 textInfo1">Probablemente quisiste<br>
@@ -85,15 +97,18 @@
 
     <div>
       <div class="info2-1">
-        <img src="img\info2.png" alt="" class="imgInfo1">
+        <picture>
+          <source media="(min-width: 990px)" srcset="img\info1.png">
+          <source media="(min-width: 500px)" srcset="img\info1-1.png">
+          <img srcset="img\info1-2.png" alt="" class="imgInfo1">
+        </picture>
         <div class="container">
           <div class="row info2">
-            <div class="col-12 textInfo2-1">Hacemos de las redes sociales<br>
+            <div class="col-12 textInfo2-1">Hacemos de las redes sociales
                                             tus mejores aliadas</div>
-            <div class="col-12 textInfo2-2">Más allá de venderte un servicio de manejo de tus plataformas,<br> 
-                                            queremos que comprendas el valor de una planificación estratégica,</div>
-            <div class="col-12 textInfo2-3">que tu marca entienda que no creamos "publicaciones bonitas" sino contenido<br> 
-                                            estratégicamente pensado para seducir y retener a tus clientes, aportando valor<br> 
+            <div class="col-12 textInfo2-2">Más allá de venderte un servicio de manejo de tus plataformas, queremos que comprendas el valor de una planificación estratégica.</div>
+            <div class="col-12 textInfo2-3">Que tu marca entienda que no creamos "publicaciones bonitas" sino contenido 
+                                            estratégicamente pensado para seducir y retener a tus clientes, aportando valor
                                             y relevancia en sus vidas.</div>
             <div class="col-12">
               <img src="img\ImgInfo2.png" alt="" class="imgInfo2">
@@ -106,7 +121,11 @@
     <!-- INFO3 -->
 
     <div class="info3">
-      <img src="img\info3.png" alt="" class="imgInfo3">
+      <picture>
+        <source media="(min-width: 990px)" srcset="img\info3.png">
+        <source media="(min-width: 500px)" srcset="img\info3-1.png">
+        <img src="img\info3-2.png" alt="" class="imgInfo3">
+      </picture>
         <div class="container containerInfo3">
           <div class="row rowInfo3">
             <div class="col-12 textInfoborder2"><p class="textInfo3-2">Y POR ESO NACE</p></div>
@@ -122,20 +141,24 @@
     <!-- INFO4 -->
 
     <div class="info4">
-      <img src="img\info1.png" alt="" class="imgInfo4-1">
+      <picture>
+        <source media="(min-width: 990px)" srcset="img\info1.png">
+        <source media="(min-width: 500px)" srcset="img\info1-1.png">
+        <img src="img\info1-2.png" alt="" class="imgInfo4-1">
+      </picture>
       <div class="container EspInfo4-1">
         <div class="row">
           <div class="col-3"><img src="img\info41.png" class="imgInfo4-2" alt=""></div>
-          <div class="col-sm-9 textInfo4-1">Sí, ya sabemos... nuestro nombre te recuerda a un pulpo, pero<br>
-                                         la verdad es que esa es la manera en la que vemos a nuestro<br>
-                                         equipo de trabajo, porque metemos los tentáculos en todos los<br>
-                                         rincones de la publicidad para <b>ayudar a tu negocio a generar<br>
+          <div class="col-sm-9 textInfo4-1"><b>Sí, ya sabemos...</b> nuestro nombre te recuerda a un pulpo, pero
+                                         la verdad es que esa es la manera en la que vemos a nuestro
+                                         equipo de trabajo, porque metemos los tentáculos en todos los
+                                         rincones de la publicidad para <b>ayudar a tu negocio a generar
                                          impacto relevante en la vida de tus clientes.</b></div>
           <div class="col-3"><img src="img\info42.png" class="imgInfo4-3" alt=""></div>
-          <div class="col-sm-9 textInfo4-2">Somos jóvenes apasionados por crear ideas y creer en el poder<br>
-                                         de la innovación. <b>Nuestro propósito es que nuestros<br>
-                                         conocimientos en materia de marketing digital impulsen a tu<br>
-                                         marca,</b> logren una buena difusión, obtenga un buen<br> 
+          <div class="col-sm-9 textInfo4-2">Somos jóvenes apasionados por crear ideas y creer en el poder
+                                         de la innovación. <b>Nuestro propósito es que nuestros
+                                         conocimientos en materia de marketing digital impulsen a tu
+                                         marca,</b> logren una buena difusión, obtenga un buen 
                                          índice de recordación y presencia en los medios.</div>
           <div class="col-12 EspInfo4"><p class="buttomInfo4">AGENDEMOS UNA REUNIÓN</p></div>
         </div>
@@ -145,7 +168,11 @@
     <!-- INFO5 -->
 
     <div class="info5">
-      <img src="img\info1.png" alt="" class="imgInfo5-1">
+      <picture>
+        <source media="(min-width: 990px)" srcset="img\info1.png">
+        <source media="(min-width: 500px)" srcset="img\info1-1.png">
+        <img src="img\info1-2.png" alt="" class="imgInfo5-1">
+      </picture>
       <div class="container container3 mx-auto">
         <div class="row">
           <div class="col-12 textInfo5-1">Los servicios que te ofrecemos:</div>
@@ -312,15 +339,19 @@
     <!-- INFOFINAl -->
 
     <div class="infoFinal">
-      <img src="img\main1.png" alt="" class="img1">
+      <picture>
+        <source media="(min-width: 990px)" srcset="img\main1.png">
+        <source media="(min-width: 500px)" srcset="img\main1-1.png">
+        <img src="img\main1-2.png" alt="" class="img1">
+      </picture>
       <div class="container">
         <div class="row">
           <div class="col-12 imgSpaceFinal"><img src="img\ImgFinal.png" class="imgInfoFinal1" alt=""></div>
           <div class="col-12 buttomInfo5-1 mx-auto">
             <div class="container">
               <div class="row">
-                <div class="col-6 textInfoborder3"><p class="textInfoFinal1">PACK 1</p></div>
-                <div class="col-6 textInfoFinal2">- Auditoría de marca<br>
+                <div class="col-4 textInfoborder3"><p class="textInfoFinal1">PACK 1</p></div>
+                <div class="col-8 textInfoFinal2">- Auditoría de marca<br>
                                                   - Creación de manuales<br>
                                                   - Conceptualización creativa<br>
                                                   - Dirección gráfica<br>
